@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.bg-helado-navbar {
+    background-color: #5d0707;;
+}
+
+.color-link {
+    color: #ffffff;
+}	
+
+.btn-heladeria {
+    background-color: #8f3421;
+    color: #ffffff;
+}
+.btn-heladeria:hover {
+    border: 1px solid #5d0707;
+}
+
+.galery-card {
+    background-color: #d7d7d7;
+    border: 1px solid #bababa;
+    border-radius: 10px;
+}
