@@ -2,17 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: "Raleway", sans-serif;
 }
-
+/*header*/
 .bg-helado-navbar {
     background-color: #5d0707;;
 }
-
 .color-link {
     color: #ffffff;
 }	
-
+/*main*/
+.title-primary {
+    color:#c78298;
+    font-weight: 700;
+    text-align: center;
+}
 .btn-heladeria {
     background-color: #8f3421;
     color: #ffffff;
@@ -25,4 +29,10 @@
     background-color: #d7d7d7;
     border: 1px solid #bababa;
     border-radius: 10px;
+}
+
+/*footer*/
+.pie-bg {
+    background-color: #290406;
+    color: #ffffff;
 }
