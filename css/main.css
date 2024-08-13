@@ -1,0 +1,103 @@
+/*esto es una nota que se compila*/
+.k-xs {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.k-sm {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.k-md {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.k-l {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.k-xl {
+  font-size: 7rem;
+  font-weight: 300;
+}
+
+/*mixin CON argumentos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", serif;
+}
+
+/*header*/
+.cabecera {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #5d0707;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.bg-helado-navbar {
+  background-color: #5d0707;
+}
+
+.color-link {
+  color: #ffffff;
+}
+
+.nesting .title-primary {
+  color: #c78298;
+  font-size: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nesting .card {
+  background-color: #8f3421;
+}
+.nesting .card .card-body .card-title {
+  color: #ffffff;
+}
+.nesting .card .card-body .btn-heladeria {
+  background-color: #8f3421;
+  color: #ffffff;
+}
+.nesting .card .card-body .btn-heladeria:hover {
+  border: 1px solid #5d0707;
+}
+
+.galery__card {
+  background-color: #d7d7d7;
+  border-radius: 10px;
+}
+.galery__card__button {
+  background-color: #d7d7d7;
+}
+.galery__btn {
+  background-color: #d7d7d7;
+}
+.galery__image {
+  margin: 0;
+  padding: 30px;
+  border: 1px solid #bababa;
+}
+.galery__image:hover {
+  background-color: #d7d7d7;
+  border: 1px solid #bababa;
+  border-radius: 10px;
+}
+
+.galeria-title {
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

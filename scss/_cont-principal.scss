@@ -1,0 +1,45 @@
+
+//Nesting
+.nesting{
+    .title-primary {
+        color:#c78298;
+        @include titles(none, 700, center);
+       @include alineacion-centro;
+    }
+    .card{
+        background-color: #8f3421;
+        .card-body{
+            .card-title{
+                color: #ffffff;
+            }
+            .btn-heladeria {
+                background-color: #8f3421;
+                color: #ffffff;
+                &:hover {
+                    border: 1px solid #5d0707;
+                }
+            }
+        }      
+    } 
+}
+.galery{
+    &__card {
+        background-color: #d7d7d7;
+        border-radius: 10px;
+        &__button{
+            background-color: #d7d7d7;
+      }
+    }
+    &__btn {
+        background-color: #d7d7d7;
+    }
+    &__image{
+        @include size-container(0,30px);
+        border: 1px solid #bababa;
+        &:hover {
+            background-color: #d7d7d7;
+            border: 1px solid #bababa;
+            border-radius: 10px;
+        }
+    }
+}

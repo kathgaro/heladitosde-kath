@@ -1,0 +1,15 @@
+/*esto es una nota que se compila*/
+//Esta nota no se compila
+
+//Reset
+@import './config/vars';
+@import './config/mixin';
+@import './config/reset';
+//Layout
+@import './layout/grid';
+@import './cabecera';
+@import './cont-principal';
+@import './banner';
+@import './pie';
+//media queries
+@import './layout/mq';

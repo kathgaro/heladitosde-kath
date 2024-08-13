@@ -1,0 +1,14 @@
+/*header*/
+.cabecera {
+   @include alineacion-centro;
+    background-color: #5d0707;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.bg-helado-navbar {
+    background-color: #5d0707;;
+}
+.color-link {
+    color: #ffffff;
+}
